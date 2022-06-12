@@ -1,0 +1,13 @@
+pnlAddPane();
+nil
+1
+designOpen("c:\\users\\naghsh\\desktop\\hspice 2008.3\\hspice\\4bit wallace tree\\wallace.sp");
+"D0"
+t
+pnlAddCurve(1, node(D0,"A0","v(p9)"), node(D0,"A0","TIME"));
+nil
+quit();
+exit
+pnlDeletePane(1, 1);
+nil
+nil
